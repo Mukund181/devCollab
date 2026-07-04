@@ -1,0 +1,32 @@
+{
+  "name": "devCollab",
+  "version": "1.0.0",
+  "description": "Covers : \r 1) Mongodb crud and relationships \r 2) Authentication and authorization with jwt\r 3) Express middleware\r 4) Error handling\r 5) File upload with multer\r 6) Real-time communication with socket.io\r 7) redis - caching and rate limiting\r 8) docker - containerization\r 9) mongodb atlas - cloud database\r 10) aws deployment with ec2 and load balancing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.10.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.3",
+    "multer": "^2.2.0",
+    "nodemailer": "^9.0.3",
+    "redis": "^6.1.0",
+    "router": "^2.2.0",
+    "socket.io": "^4.8.3",
+    "socketio": "^1.0.0"
+  }
+}
