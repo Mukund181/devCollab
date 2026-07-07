@@ -1,2 +1,6 @@
-.env
 node_modules
+.env
+logs/
+*.log
+extract_doc.js
+doc_extracted.txt
